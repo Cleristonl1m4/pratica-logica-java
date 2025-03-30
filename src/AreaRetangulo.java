@@ -8,9 +8,9 @@ public class AreaRetangulo {
         System.out.println("==============================\n" +
                 "CALCULAR AREA DE UM RETANGULO\n" +
                 "==============================\n" +
-                "Digite o tamanho da base: \n");
+                "Digite o tamanho da base: ");
             base = scanner.nextDouble();
-            System.out.println("Digite a altura: \n");
+            System.out.println("Digite a altura: ");
             altura = scanner.nextDouble();
             area = (base * altura) / 2;
             System.out.println("==============================\n" +
