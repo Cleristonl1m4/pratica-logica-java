@@ -1,5 +1,4 @@
 import java.security.SecureRandom;
-import java.util.Scanner;
 public class DiagonalPrincipal {
     public static void main(String[] args) {
         int[][] mtz = new int[4][4];
