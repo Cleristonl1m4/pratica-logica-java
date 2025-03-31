@@ -1,14 +1,13 @@
+import java.security.SecureRandom;
 import java.util.Scanner;
 public class DiagonalPrincipal {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int[][] mtz = new int[4][4];
         int soma =0;
         System.out.println("=========================");
-        System.out.println("Digite os elementos da matriz 4X4");
         for(int l = 0; l < mtz.length; l++){
             for( int c = 0; c < mtz.length; c++){
-                mtz[l][c] = sc.nextInt();
+                mtz[l][c] = new SecureRandom().nextInt(100);
             }
         }
         for (int t=0; t <= 3; t++){
