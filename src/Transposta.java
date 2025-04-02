@@ -4,7 +4,6 @@ import java.util.Collections;
 public class Transposta {
     public static void main(String[] args) {
         int[][] mtz = new int[3][3];
-        int soma =0;
         System.out.println("=========================");
         for(int l = 0; l < mtz.length; l++){
             for( int c = 0; c < mtz.length; c++){
@@ -24,7 +23,5 @@ public class Transposta {
             }
             System.out.println();
         }
-
-
     }
 }
