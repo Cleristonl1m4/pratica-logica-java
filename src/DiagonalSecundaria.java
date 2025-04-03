@@ -23,5 +23,6 @@ public class DiagonalSecundaria {
         }
         System.out.println("=========================");
         System.out.println(" A soma da Diagonal Secundaria: " + soma);
+        System.out.println("==========================");
     }
 }
