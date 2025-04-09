@@ -6,7 +6,7 @@ public class Livro {
     void exibirInfo(){
         System.out.println("Autor: " + autor + "\n" +
                 "Titulo: " + titulo + "\n" +
-                "Ano de lançamento: " + anoPublicacao);
+                "Ano de lançamento: " + anoPublicacao + "\n");
     }
 
 }
