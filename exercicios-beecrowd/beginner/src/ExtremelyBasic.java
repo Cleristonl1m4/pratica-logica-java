@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExtremamenteBasico {
+public class ExtremelyBasic {
     public static void main(String[] args) {
         int x = 0;
         Scanner sc = new Scanner(System.in);
